@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Microsoft YaHei";
+}
+html,
+body {
+  height: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+select,
+form images,
+button {
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+textarea {
+  width: 95%;
+}
+a {
+  color: #000;
+  text-decoration: none !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+em,
+i {
+  font-style: normal;
+}
+img {
+  border: none;
+}
+input,
+img {
+  vertical-align: middle;
+}
+body {
+  color: #000;
+  font-family: "Microsoft YaHei";
+  background: #FFF;
+  overflow-x: hidden;
+}
+#header {
+  height: 50px;
+  background-color: #ff841d;
+  padding: 10px;
+}
+#header .logo {
+  margin-left: 5px;
+}
+#header .logo img {
+  height: 25px;
+}
+#header .app {
+  float: right;
+  margin-top: -2px;
+}
+#header .app img {
+  height: 34px;
+}
+#search {
+  background-color: #fff;
+  padding: 10px;
+}
+#search form {
+  padding-right: 70px;
+  position: relative;
+}
+#search form input[type="search"] {
+  height: 30px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #f5f5f5;
+  padding-left: 15px;
+  border: 0;
+}
+#search form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 63px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #ff841d;
+  color: #fff;
+  border: 0;
+}
+.recommend_title {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 10px;
+  background-color: #ff841d;
+}
+.recommend_title span {
+  font-size: 16px;
+  color: #fff;
+}
+.recommend_title img {
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
+  float: right;
+}
+#footer {
+  margin-top: 10px;
+}
+#footer .login_box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 34px;
+  width: 100%;
+  text-align: center;
+  background-color: #efefef;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+}
+#footer .login_box > div {
+  width: 30%;
+  height: 34px;
+  border-right: 1px solid #c4c4c4;
+  float: left;
+  line-height: 34px;
+}
+#footer .login_box .go_Top {
+  width: 40%;
+}
+#footer .login_box .go_Top img {
+  margin-top: -4px;
+}
+#footer .login_button {
+  text-align: center;
+  margin-top: 10px;
+}
+#footer .login_button .p_top {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#footer .login_button .p_top span {
+  font-size: 12px;
+}
+#footer .login_button .p_top span:first-child {
+  color: red;
+}
+#footer .login_button .p_top span:nth-child(2) {
+  color: #000;
+}
+#footer .login_button .p_top span:nth-child(3) {
+  color: #ccc;
+}

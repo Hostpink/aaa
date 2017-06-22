@@ -1,0 +1,84 @@
+#nav {
+  height: 38px;
+  line-height: 38px;
+  padding: 0 10px;
+  background-color: #ebebeb;
+}
+#nav > span {
+  margin-right: 3px;
+}
+#nav > span:after {
+  content: ">";
+}
+#nav > a {
+  float: right;
+  display: block;
+  height: 28px;
+  line-height: 28px;
+  background-color: #d0d0d0;
+  border-bottom: 1px solid #bababa;
+  box-shadow: 0 1px 2px #888;
+  padding: 0 16px;
+  margin-top: 4px;
+  border-radius: 5px;
+}
+#product_con ul li {
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+#product_con ul li a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#product_con ul li .pic {
+  float: left;
+}
+#product_con ul li .pic img {
+  width: 100px;
+  height: 100px;
+}
+#product_con ul li .text {
+  padding-left: 110px;
+}
+#product_con ul li .text h5 {
+  margin: 0;
+  color: #333333;
+  line-height: 22px;
+  min-height: 44px;
+  word-break: break-all;
+}
+#product_con ul li .text .price {
+  font-size: 18px;
+  color: #ea3900;
+}
+#product_con ul li .text .other {
+  color: #a1a1a1;
+  font-size: 12px;
+}
+.page {
+  height: 36px;
+  display: flex;
+  text-align: center;
+}
+.page span {
+  flex: 1;
+}
+.page span > a {
+  background-color: #d4d4d4;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 32px;
+  overflow: hidden;
+  padding: 8px 10px;
+}
+.page span #select {
+  border: 1px solid #bababa;
+  font-size: 16px;
+  padding: 4px 15px;
+}
